@@ -1,0 +1,38 @@
+#popup {
+  width: 80%;
+  max-width: 300px;
+  height: 230px;
+  background-color: rgb(0, 0, 0, .95);
+  color: #fff;
+  position: absolute;
+  border-radius: .3rem;
+  @media(min-width: 1000px) {
+    top: 88rem;
+  }
+
+
+  header {
+    background-color: transparent;
+    color: #fff;
+    font-size: 2rem;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0.2rem 0 2rem;
+    height: 3rem;
+
+    button {
+      border: 0;
+      background: transparent;
+      font-size: 1.5rem;
+    }
+  }
+
+  p {
+    display: flex;
+    flex-direction: column;
+
+    span {
+      margin-top: 1rem;
+    }
+  }
+}
